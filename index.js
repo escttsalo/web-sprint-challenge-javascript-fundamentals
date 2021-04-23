@@ -5,18 +5,19 @@ Study the code below and explain in your own words why nested function can acces
 const external = "I'm outside the function";
 
 function myFunction() {
-  console.log(external);
+  // console.log(external);
   const internal = "Hello! I'm inside myFunction!";
 
   function nestedFunction() {
-    console.log(internal);
+    // console.log(internal);
   }
   nestedFunction();
 }
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-  //- "The variable isn't defined within it's own scope so it reaches up the chain to grab that variable."
+
+  //Answer // - "The variable isn't defined within it's own scope so it reaches up the chain to grab that variable."
 
 
 
